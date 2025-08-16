@@ -1,0 +1,36 @@
+# Flask E-commerce App Requirements
+# Core Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+Jinja2==3.1.2
+
+# For template rendering and utilities
+MarkupSafe==2.1.3
+itsdangerous==2.1.2
+click==8.1.7
+
+# Optional: For production deployment
+gunicorn==21.2.0
+
+# Optional: For database support (if you want to add SQLAlchemy later)
+# Flask-SQLAlchemy==3.0.5
+# SQLAlchemy==2.0.21
+
+# Optional: For form handling (if you want to add WTForms later)
+# Flask-WTF==1.1.1
+# WTForms==3.0.1
+
+# Optional: For user authentication (if you want to add login later)
+# Flask-Login==0.6.3
+
+# Optional: For email functionality (if you want to add email features)
+# Flask-Mail==0.9.1
+
+# Optional: For environment variables
+# python-dotenv==1.0.0
+
+# Optional: For API development (if you want to add REST API)
+# Flask-RESTful==0.3.10
+
+# Development dependencies (optional)
+# Flask-DebugToolbar==0.13.1
